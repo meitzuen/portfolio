@@ -2,79 +2,163 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <title>Jamie's Profile</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Jamie Mei | Software Engineer & SDET</title>
     <link rel="stylesheet" href="styles.css" />
-    <link rel="icon" href="favicon.png" type="image/png" />
+    <link rel="icon" href="images/favicon.ico" type="image/png" />
     <script src="https://kit.fontawesome.com/b99e675b6e.js"></script>
   </head>
   <body>
-    <div class="wrapper">
-      <div class="left">
-        <img src="https://i.imgur.com/z34WnjK.png" alt="user" width="100" />
-        <h4>Jamie Mei</h4>
-        <p>Software Engineer / SDET</p>
+    <!-- Navbar -->
+    <nav class="navbar">
+      <div class="container nav-content">
+        <a href="#" class="logo"><img src="images/logo.png" alt="Logo"></a>
+        <ul class="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#skills">Skills</a></li>
+          <li><a href="#projects">Portfolio</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
       </div>
-      <div class="right">
-        <div class="info">
-          <h3>Information</h3>
-          <div class="info_data">
-            <div class="data">
-              <h4>Email</h4>
-              <p>meitzuen@gmail.com</p>
+    </nav>
+
+    <main>
+      <!-- Hero Section -->
+      <section id="home" class="hero">
+        <div class="container hero-content">
+          <img src="https://i.imgur.com/z34WnjK.png" alt="Jamie Mei" />
+          <h1>Jamie Mei</h1>
+          <p>Software Developer | SDET</p>
+          <a href="#projects" class="btn">View Portfolio</a>
+        </div>
+      </section>
+
+      <!-- About Section -->
+      <section id="about">
+        <div class="container">
+          <h2 class="section-title">About Me</h2>
+          <div class="about-grid">
+            <div class="about-text">
+              <h3>I'm a passionate Software Developer in Taiwan.</h3>
+              <p>
+                Experienced in software development and testing, I specialize in building robust and scalable web applications. I have a keen eye for detail and a commitment to delivering high-quality code.
+              </p>
+              <p>
+                Most of my experience spans across various industries, where I've contributed to e-commerce platforms and system-level tools, ensuring both functionality and performance.
+              </p>
+              <div class="info-list">
+                <div class="info-item">
+                  <strong>Email:</strong> <span>mei.tzu.en@gmail.com</span>
+                </div>
+                <div class="info-item">
+                  <strong>Line:</strong> <span>jamiemei1996</span>
+                </div>
+                <div class="info-item">
+                  <strong>Location:</strong> <span>Taiwan/Taipei</span>
+                </div>
+              </div>
             </div>
-            <div class="data">
-              <h4>Line</h4>
-              <p>jamiemei1996</p>
+            <div class="about-image">
+              <!-- Optional image or illustration can go here -->
+              <img src="https://images.unsplash.com/photo-1498050108023-c5249f4df085?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Working" style="border-radius: 12px; box-shadow: var(--shadow-lg);">
             </div>
           </div>
         </div>
+      </section>
 
-        <div class="projects">
-          <h3>PORTFOLIO</h3>
-          <div class="projects_data">
-            <div class="data">
-              <h4>法朋電商官網</h4>
-              <p>
-                <a href="https://www.lerubanpatisserie.com/"
-                  >Lerubanpatisserie.com</a
-                >
-              </p>
+      <!-- Skills Section -->
+      <section id="skills" class="bg-light">
+        <div class="container">
+          <h2 class="section-title">My Skills</h2>
+          <div class="skills-grid">
+            <div class="skill-card">
+              <i class="fas fa-code"></i>
+              <h4>Frontend</h4>
+              <p>HTML5, CSS, JavaScript</p>
             </div>
-            <div class="data">
-              <h4>小和好點電商官網</h4>
-              <p>
-                <a href="https://dotdothotel.com/">Dotdothotel.com</a>
-              </p>
+            <div class="skill-card">
+              <i class="fas fa-server"></i>
+              <h4>Backend</h4>
+              <p>Python, FastAPI, MongoDB, PostgreSQL</p>
             </div>
-            <div class="data">
-              <h4>嗨!電商專案</h4>
-              <p>
-                <a href="https://www.hishoptw.com/">Hishop.com</a>
-              </p>
+            <div class="skill-card">
+              <i class="fas fa-vial"></i>
+              <h4>Automation</h4>
+              <p>Selenium, Cypress, Playwright, Pytest</p>
+            </div>
+            <div class="skill-card">
+              <i class="fas fa-tools"></i>
+              <h4>DevOps</h4>
+              <p>AzureDevOps, AWS, Github Actions, GCP</p>
             </div>
           </div>
         </div>
+      </section>
 
-        <div class="social_media">
-          <ul>
-            <li>
-              <a href="https://www.facebook.com/meitzuen"
-                ><i class="fab fa-facebook-f"></i
-              ></a>
-            </li>
-            <li>
-              <a href="https://twitter.com/meizuen"
-                ><i class="fab fa-twitter"></i
-              ></a>
-            </li>
-            <li>
-              <a href="https://www.linkedin.com/in/jamie-mei-a50972134/"
-                ><i class="fab fa-linkedin"></i
-              ></a>
-            </li>
-          </ul>
+      <!-- Projects Section -->
+      <section id="projects">
+        <div class="container">
+          <h2 class="section-title">Portfolio</h2>
+          <div class="projects-grid">
+            <!-- Project 1 -->
+            <div class="project-card">
+              <div class="project-info">
+                <h4>法朋甜點官網</h4>
+                <p>法朋甜點可提供線上/線下訂購取貨服務的電商官網，多樣化精緻的網頁設計及提供完善用戶體驗。同時提供高效率搶購功能，同等演唱會門票的體驗。</p>
+                <a href="https://www.lerubanpatisserie.com/" class="project-link" target="_blank">
+                  Visit Website <i class="fas fa-external-link-alt"></i>
+                </a>
+              </div>
+            </div>
+            <!-- Project 2 -->
+            <div class="project-card">
+              <div class="project-info">
+                <h4>小和好點官網</h4>
+                <p>小和好點肉桂捲甜點官網提供完善的用戶體驗 and 多樣化的產品選擇。用戶管理系統並提供廣告推播功能及完整的訂單整合追蹤系統。</p>
+                <a href="https://dotdothotel.com/" class="project-link" target="_blank">
+                  Visit Website <i class="fas fa-external-link-alt"></i>
+                </a>
+              </div>
+            </div>
+            <!-- Project 3 -->
+            <div class="project-card">
+              <div class="project-info">
+                <h4>Hishop官網</h4>
+                <p>Hishop是一個整合平台如 Shopline，提供客製化服務的官網設計亦或是功能擴展等多功能平台。完整客戶實現客製化的需求及其他服務。</p>
+                <a href="https://www.hishoptw.com/" class="project-link" target="_blank">
+                  Visit Website <i class="fas fa-external-link-alt"></i>
+                </a>
+              </div>
+            </div>
+          </div>
         </div>
+      </section>
+
+      <!-- Contact Section -->
+      <section id="contact">
+        <div class="container">
+          <div class="contact-container">
+            <h2 class="section-title">Get In Touch</h2>
+            <p>I'm always open to new opportunities and collaborations.</p>
+            <p>Feel free to reach out!</p>
+            <div class="social-links">
+              <a href="https://www.facebook.com/meitzuen" target="_blank"><i class="fab fa-facebook-f"></i></a>
+              <a href="https://twitter.com/meizuen" target="_blank"><i class="fab fa-twitter"></i></a>
+              <a href="https://www.linkedin.com/in/jamie-mei-a50972134/" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+              <a href="mailto:meitzuen@gmail.com"><i class="fas fa-envelope"></i></a>
+            </div>
+            <br>
+            <a href="mailto:meitzuen@gmail.com" class="btn">Say Hello</a>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="container">
+        <p>&copy; 2026 Jamie Mei. All rights reserved.</p>
       </div>
-    </div>
+    </footer>
   </body>
 </html>
