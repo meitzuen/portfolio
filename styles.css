@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@400;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Huninn&family=Montserrat+Alternates:wght@300;400;500;600;700&display=swap');
 
 :root {
   --primary: #01a9ac;
@@ -25,14 +25,14 @@ html {
 }
 
 body {
-  font-family: 'Inter', sans-serif;
+  font-family: 'Montserrat Alternates', 'Huninn', sans-serif;
   background-color: var(--bg-light);
   color: var(--text-dark);
   line-height: 1.6;
 }
 
 h1, h2, h3, h4 {
-  font-family: 'Poppins', sans-serif;
+  font-family: 'Montserrat Alternates', 'Huninn', sans-serif;
   font-weight: 700;
   color: var(--text-dark);
 }
