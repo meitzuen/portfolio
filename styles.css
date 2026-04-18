@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Huninn&family=Montserrat+Alternates:wght@300;400;500;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Huninn&family=Montserrat+Alternates:wght@300;400;500;600;700&display=swap");
 
 :root {
   --primary: #01a9ac;
@@ -8,8 +8,10 @@
   --text-muted: #6b7280;
   --bg-light: #f9fafb;
   --white: #ffffff;
-  --shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
-  --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
+  --shadow:
+    0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+  --shadow-lg:
+    0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05);
   --radius: 12px;
   --transition: all 0.3s ease;
 }
@@ -25,14 +27,17 @@ html {
 }
 
 body {
-  font-family: 'Montserrat Alternates', 'Huninn', sans-serif;
+  font-family: "Montserrat Alternates", "Huninn", sans-serif;
   background-color: var(--bg-light);
   color: var(--text-dark);
   line-height: 1.6;
 }
 
-h1, h2, h3, h4 {
-  font-family: 'Montserrat Alternates', 'Huninn', sans-serif;
+h1,
+h2,
+h3,
+h4 {
+  font-family: "Montserrat Alternates", "Huninn", sans-serif;
   font-weight: 700;
   color: var(--text-dark);
 }
@@ -70,7 +75,7 @@ section {
 }
 
 .section-title::after {
-  content: '';
+  content: "";
   display: block;
   width: 50px;
   height: 4px;
@@ -323,20 +328,61 @@ footer {
   color: var(--white);
 }
 
+/* Language Switcher */
+.lang-selector {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  background: var(--primary);
+  padding: 5px 15px;
+  border-radius: 20px;
+  color: var(--white);
+  transition: var(--transition);
+}
+
+.lang-label {
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+.lang-select {
+  background: transparent;
+  color: var(--white);
+  border: none;
+  font-family: inherit;
+  font-size: 0.9rem;
+  font-weight: 600;
+  cursor: pointer;
+  outline: none;
+}
+
+.lang-select option {
+  background: var(--white);
+  color: var(--text-dark);
+}
+
+.lang-selector:hover {
+  background: var(--primary-dark);
+  transform: scale(1.05);
+}
+
 /* Responsive */
 @media (max-width: 768px) {
   .hero-content h1 {
     font-size: 2.5rem;
   }
-  
+
   .about-grid {
     grid-template-columns: 1fr;
   }
-  
+
   .nav-links {
     display: none; /* In a real project, we'd add a mobile menu */
   }
-  
+
+  /* Ensure lang button is visible if nav-links are hidden (optional, but good for UX) */
+  /* For now, keeping it simple as per original style */
+
   .section-title {
     font-size: 2rem;
   }

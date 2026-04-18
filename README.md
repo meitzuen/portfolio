@@ -11,8 +11,9 @@ A modern, responsive personal portfolio showcasing my experience as a Software D
 This project is a complete modernization of my personal landing page. It features a clean, professional aesthetic with a focus on typography, smooth interactions, and a responsive layout that works across all devices.
 
 ### Key Features
+
 - **Modern UI/UX:** Built with a minimalist design, utilizing soft shadows and glassmorphism.
-- **Bilingual Typography:** 
+- **Bilingual Typography:**
   - **English:** Montserrat Alternates
   - **Chinese:** jf-openhuninn (粉圓體)
 - **Responsive Design:** Mobile-first approach using CSS Flexbox and Grid.
@@ -45,6 +46,7 @@ This project is a complete modernization of my personal landing page. It feature
 ## 💼 Highlighted Projects
 
 The portfolio showcases several key projects, including:
+
 - **法朋甜點官網:** High-performance e-commerce platform with flash-sale capabilities.
 - **小和好點官網:** Custom e-commerce solution with integrated order tracking.
 - **Hishop官網:** Scalable platform for customized e-commerce services.
