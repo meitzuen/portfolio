@@ -47,7 +47,7 @@ const translations = {
     "nav-skills": "專業技能",
     "nav-portfolio": "作品集",
     "nav-contact": "聯絡我",
-    "hero-name": "梅子恩 Jamie Mei",
+    "hero-name": "梅祖恩",
     "hero-title": "軟體工程師 | 軟體測試工程師 (SQA)",
     "hero-btn": "查看作品集",
     "about-title": "關於我",
