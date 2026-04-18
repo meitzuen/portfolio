@@ -105,6 +105,12 @@ section {
   width: 100%;
 }
 
+.nav-right {
+  display: flex;
+  align-items: center;
+  gap: 30px;
+}
+
 .logo {
   font-size: 1.5rem;
   font-weight: 700;
@@ -377,11 +383,16 @@ footer {
   }
 
   .nav-links {
-    display: none; /* In a real project, we'd add a mobile menu */
+    display: none;
   }
 
-  /* Ensure lang button is visible if nav-links are hidden (optional, but good for UX) */
-  /* For now, keeping it simple as per original style */
+  .nav-right {
+    gap: 0;
+  }
+
+  .lang-label {
+    display: none;
+  }
 
   .section-title {
     font-size: 2rem;
