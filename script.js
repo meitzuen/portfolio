@@ -24,6 +24,9 @@ const translations = {
     "skill-backend-title": "Backend",
     "skill-automation-title": "Automation",
     "skill-devops-title": "DevOps",
+    "skill-qa-title": "QA",
+    "skill-qa-desc":
+      "Functional Test, Performance/Stress Test (k6 / JMeter), Postman, Charles",
     "portfolio-title": "Portfolio",
     "project1-title": "LeRuban Patisserie EC site",
     "project1-desc":
@@ -35,6 +38,12 @@ const translations = {
     "project3-title": "Hishop EC Website",
     "project3-desc":
       "An integrated platform similar to Shopline, providing customized official website designs and multi-functional extensions. Fully realizes customer customization needs and other services.",
+    "project4-title": "Personal Portfolio Website",
+    "project4-desc":
+      "A self-built personal resume and portfolio website introducing my background, skills, and project experience. Features a fully responsive layout and a bilingual (English/Chinese) language switcher.",
+    "project5-title": "Stock market dashboard",
+    "project5-desc":
+      "Market Observer solves the pain point of constantly switching between multiple financial websites and systems when tracking and analyzing the market, consolidating the core stock data you care about into a single unified interface.",
     "contact-title": "Get In Touch",
     "contact-p1": "I'm always open to new opportunities and collaborations.",
     "contact-p2": "Feel free to reach out!",
@@ -65,6 +74,8 @@ const translations = {
     "skill-backend-title": "後端開發",
     "skill-automation-title": "自動化測試",
     "skill-devops-title": "維運工具",
+    "skill-qa-title": "測試",
+    "skill-qa-desc": "功能測試, 效能/壓力測試 (k6 / JMeter), Postman, Charles",
     "portfolio-title": "作品集",
     "project1-title": "法朋甜點官網",
     "project1-desc":
@@ -76,6 +87,12 @@ const translations = {
     "project3-title": "Hishop 官網",
     "project3-desc":
       "類似 Shopline 的整合平台，提供客製化官網設計與多功能擴充。完整實現客戶的自訂需求與各項服務。",
+    "project4-title": "個人履歷作品集",
+    "project4-desc":
+      "自行打造的個人履歷與作品集網站，展示自我介紹、專業技能與專案經驗，具備完整的響應式排版，並支援中英文語言切換功能。",
+    "project5-title": "台股整合平台",
+    "project5-desc":
+      "Market Observer 是一套針對台股投資者需求設計的資訊整合平台，旨在解決傳統看盤與分析時，需要在多個財經網站與系統間頻繁切換的痛點，將個人關注的核心台股數據統一收攏於單一介面。",
     "contact-title": "與我聯絡",
     "contact-p1": "我始終對新的機會與合作保持開放態度。",
     "contact-p2": "歡迎隨時與我聯繫！",
