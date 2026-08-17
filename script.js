@@ -53,7 +53,6 @@ const translations = {
     "contact-title": "Get In Touch",
     "contact-p1": "I'm always open to new opportunities and collaborations.",
     "contact-p2": "Feel free to reach out!",
-    "contact-btn": "Say Hello",
     "footer-text": "© 2026 Jamie Mei. All rights reserved.",
   },
   zh: {
@@ -107,7 +106,6 @@ const translations = {
     "contact-title": "與我聯絡",
     "contact-p1": "我始終對新的機會與合作保持開放態度。",
     "contact-p2": "歡迎隨時與我聯繫！",
-    "contact-btn": "打個招呼",
     "footer-text": "© 2026 Jamie Mei. 版權所有。",
   },
 };
