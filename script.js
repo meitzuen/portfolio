@@ -26,7 +26,10 @@ const translations = {
     "skill-devops-title": "DevOps",
     "skill-qa-title": "QA",
     "skill-qa-desc":
-      "Functional Test, Performance/Stress Test (k6 / JMeter), Postman, Charles",
+      "Functional Test, Performance/Stress Test (k6/JMeter), Postman, Charles",
+    "skill-soft-title": "Soft Skills",
+    "skill-soft-desc":
+      "Communication, Teamwork, Problem Solving, Time Management",
     "portfolio-title": "Portfolio",
     "project1-title": "LeRuban Patisserie EC site",
     "project1-desc":
@@ -79,6 +82,8 @@ const translations = {
     "skill-devops-title": "維運工具",
     "skill-qa-title": "測試",
     "skill-qa-desc": "功能測試, 效能/壓力測試 (k6 / JMeter), Postman, Charles",
+    "skill-soft-title": "軟實力",
+    "skill-soft-desc": "溝通協調, 團隊合作, 問題解決, 時間管理",
     "portfolio-title": "作品集",
     "project1-title": "法朋甜點官網",
     "project1-desc":
