@@ -44,6 +44,9 @@ const translations = {
     "project5-title": "Stock market dashboard",
     "project5-desc":
       "Market Observer solves the pain point of constantly switching between multiple financial websites and systems when tracking and analyzing the market, consolidating the core stock data you care about into a single unified interface.",
+    "project6-title": "DevTool - Developer Utility Toolbox",
+    "project6-desc":
+      "DevTool is an all-in-one platform that consolidates commonly used testing and development utilities, such as a JWT decoder and timestamp generator, into a single page, saving the time spent searching for these tools online.",
     "contact-title": "Get In Touch",
     "contact-p1": "I'm always open to new opportunities and collaborations.",
     "contact-p2": "Feel free to reach out!",
@@ -93,6 +96,9 @@ const translations = {
     "project5-title": "台股整合平台",
     "project5-desc":
       "Market Observer 是一套針對台股投資者需求設計的資訊整合平台，旨在解決傳統看盤與分析時，需要在多個財經網站與系統間頻繁切換的痛點，將個人關注的核心台股數據統一收攏於單一介面。",
+    "project6-title": "DevTool 開發者工具箱",
+    "project6-desc":
+      "DevTool 是一個整合常用測試/開發功能的工具平台，將工作中常用的工具（如 JWT Decode、Timestamp Generator 等）整理在同一個網頁上，省去每次上網搜尋的時間。",
     "contact-title": "與我聯絡",
     "contact-p1": "我始終對新的機會與合作保持開放態度。",
     "contact-p2": "歡迎隨時與我聯繫！",
