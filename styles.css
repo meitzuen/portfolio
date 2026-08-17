@@ -303,6 +303,9 @@ section {
 }
 
 .project-card {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
   background: var(--white);
   border-radius: var(--radius);
   overflow: hidden;
@@ -316,6 +319,9 @@ section {
 }
 
 .project-info {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
   padding: 25px;
 }
 
@@ -325,17 +331,19 @@ section {
 }
 
 .project-info p {
+  flex: 1;
+  margin-bottom: 20px;
   font-size: 0.95rem;
   color: var(--text-muted);
-  margin-bottom: 20px;
 }
 
 .project-link {
-  color: var(--primary);
-  font-weight: 600;
   display: flex;
   align-items: center;
   gap: 5px;
+  margin-top: auto;
+  color: var(--primary);
+  font-weight: 600;
 }
 
 .project-link:hover {
